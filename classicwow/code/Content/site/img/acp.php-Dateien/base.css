@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+    background-color: #F0F0F0;
+}
+
+img {
+    border: 0px;
+}
+
+a:link {color: black; text-decoration: underline; }
+a:active {color: black; text-decoration: underline; }
+a:visited {color: black; text-decoration: underline; }
+
+#headBar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 75px;
+    width: 100%;
+
+    background-image: url("../img/headHeader.png");
+    background-repeat: repeat-x;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+}
+
+#loginInfo {
+    background-image: url("../img/transparent_grey.png");
+
+    font-size: 14px;
+
+    margin-right: 25px;
+    margin-top: 10px;
+
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    height: 40px;
+    width: 250px;
+    overflow: hidden;
+
+    float: right;
+    text-align: right;
+}
+
+#logoText {
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+    font-size:x-large;
+    font-weight:bolder;
+}
+
+#main {
+    position: absolute;
+    top: 75px;
+    
+    width: 100%;
+    height: 5px;
+
+
+    color: black;
+    background-color: F0F0F0;
+}
+
+#main #bar {
+    height: 25px;
+    width: 100%;
+
+    background-color: #D4D4D4;
+    border-top: #093B90 solid 1px;
+    border-bottom: #093B90 solid 1px;
+
+}
+
+#main #navigation {
+    width: 250px;
+    position: fixed;
+    min-height: 100%;
+    min-height: 100%;
+
+    padding-top: 15px;
+
+    border-right: #093B90 solid 1px;
+
+}
+
+#main #navigation #tree {
+    width: inherit;
+
+    overflow: auto;
+
+    font-family:Verdana;
+    font-size:10px;
+}
+
+#logInBox .text {
+    padding-bottom: 0px;
+
+    width: 100px;
+    height: 16px;
+    font-size:x-small;
+}
+
+#logInBox .button {
+    font-size:x-small;
+}
+
+#bar .text {
+    margin-top: 2px;
+    margin-left: 10px;
+
+    padding-top: 2px;
+
+    height: 20px;
+    width: 230px;
+    background-color: #D4D4D4;
+    border: solid 1px #929292;
+    font-size: 11px;
+}
+
+#main #content {
+    position: absolute;
+
+    top: 25px;
+    margin-left: 255px;
+}
+
+a.search { color:#093B90 !important; }

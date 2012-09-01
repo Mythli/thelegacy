@@ -1,0 +1,404 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><!-- index start -->
+
+
+    
+        <title>Admin Panel - Index</title>
+        <!-- scriptfiles start -->
+<link rel="stylesheet" href="acp.php-Dateien/base.css" type="text/css">
+<link rel="stylesheet" href="acp.php-Dateien/tab_navigation.css" type="text/css">
+
+<script type="text/javascript" src="acp.php-Dateien/jquery_005.js"></script>
+
+<script type="text/javascript" src="acp.php-Dateien/jquery_008.js"></script>
+
+<script type="text/javascript" src="acp.php-Dateien/jquery_002.js"></script>
+<script type="text/javascript" src="acp.php-Dateien/jquery_003.js"></script>
+<script type="text/javascript" src="acp.php-Dateien/jquery_004.js"></script>
+
+<script type="text/javascript" src="acp.php-Dateien/jquery_007.js"></script>
+<script type="text/javascript" src="acp.php-Dateien/jquery_006.js"></script>
+<script type="text/javascript" src="acp.php-Dateien/jquery.js"></script>
+<script type="text/javascript" src="acp.php-Dateien/jquery_009.js"></script>
+
+
+<script type="text/javascript" src="acp.php-Dateien/main.js"></script>
+
+<!-- scriptfiles - end -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">/* TREE LAYOUT */ .tree ul { margin:0 0 0 5px; padding:0 0 0 0; list-style-type:none; } .tree li { display:block; min-height:18px; line-height:18px; padding:0 0 0 15px; margin:0 0 0 0; /* Background fix */ clear:both; } .tree li ul { display:none; } .tree li a, .tree li span { display:inline-block;line-height:16px;height:16px;color:black;white-space:nowrap;text-decoration:none;padding:1px 4px 1px 4px;margin:0; } .tree li a:focus { outline: none; } .tree li a input, .tree li span input { margin:0;padding:0 0;display:inline-block;height:12px !important;border:1px solid white;background:white;font-size:10px;font-family:Verdana; } .tree li a input:not([class="xxx"]), .tree li span input:not([class="xxx"]) { padding:1px 0; } /* FOR DOTS */ .tree .ltr li.last { float:left; } .tree > ul li.last { overflow:visible; } /* OPEN OR CLOSE */ .tree li.open ul { display:block; } .tree li.closed ul { display:none !important; } /* FOR DRAGGING */ #jstree-dragged { position:absolute; top:-10px; left:-10px; margin:0; padding:0; } #jstree-dragged ul ul ul { display:none; } #jstree-marker { padding:0; margin:0; line-height:5px; font-size:1px; overflow:hidden; height:5px; position:absolute; left:-45px; top:-30px; z-index:1000; background-color:transparent; background-repeat:no-repeat; display:none; } #jstree-marker.marker { width:45px; background-position:-32px top; } #jstree-marker.marker_plus { width:5px; background-position:right top; } /* BACKGROUND DOTS */ .tree li li { overflow:hidden; } .tree > .ltr > li { display:table; } /* ICONS */ .tree ul ins { display:inline-block; text-decoration:none; width:16px; height:16px; } .tree .ltr ins { margin:0 4px 0 0px; } </style><link href="acp.php-Dateien/style.css" media="all" type="text/css" rel="stylesheet"><script charset="utf-8" id="injection_graph_func" src="acp.php-Dateien/injection_graph_func.js"></script><script id="_nameHighlight_injection"></script><link class="skype_name_highlight_style" href="acp.php-Dateien/injection_nh_graph.css" type="text/css" rel="stylesheet" charset="utf-8" id="_injection_graph_nh_css"><link href="acp.php-Dateien/skypeplugin_dropdownmenu.css" type="text/css" rel="stylesheet" charset="utf-8" id="_skypeplugin_dropdownmenu_css"><style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+
+#firebugBody {
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    width:1px;
+    height:1px;
+    overflow:visible;
+}
+
+.firebugCanvas {
+    position:fixed;
+    top: 0;
+    left: 0;
+    display:none;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.firebugHighlight {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: #3875d7;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugLayoutBoxParent {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: transparent;
+    border-top: 0 none;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px dashed #BBBBBB;
+    border-left: 0 none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.firebugRuler {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugRulerH {
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    background: url(chrome://firebug/skin/rulerH.png) repeat-x;
+    border-top: 1px solid #BBBBBB;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px solid #000000;
+}
+
+.firebugRulerV {
+    top: 0;
+    left: -15px;
+    width: 14px;
+    height: 100%;
+    background: url(chrome://firebug/skin/rulerV.png) repeat-y;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #000000;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.firebugLayoutBoxOffset {
+    z-index: 2147483647;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.firebugLayoutBoxMargin {
+    background-color: #EDFF64;
+}
+
+.firebugLayoutBoxBorder {
+    background-color: #666666;
+}
+
+.firebugLayoutBoxPadding {
+    background-color: SlateBlue;
+}
+
+.firebugLayoutBoxContent {
+    background-color: SkyBlue;
+}
+
+/*.firebugHighlightGroup .firebugLayoutBox {
+    background-color: transparent;
+}
+
+.firebugHighlightBox {
+    background-color: Blue !important;
+}*/
+
+.firebugLayoutLine {
+    z-index: 2147483647;
+    background-color: #000000;
+    opacity: 0.4;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugLayoutLineLeft,
+.firebugLayoutLineRight {
+    position: fixed;
+    width: 1px;
+    height: 100%;
+}
+
+.firebugLayoutLineTop,
+.firebugLayoutLineBottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px;
+    border-top: 1px solid #999999;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px;
+    border-left: 1px solid #999999;
+}
+</style><style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+
+#firebugBody {
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    width:1px;
+    height:1px;
+    overflow:visible;
+}
+
+.firebugCanvas {
+    position:fixed;
+    top: 0;
+    left: 0;
+    display:none;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.firebugHighlight {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: #3875d7;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugLayoutBoxParent {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: transparent;
+    border-top: 0 none;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px dashed #BBBBBB;
+    border-left: 0 none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.firebugRuler {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugRulerH {
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    background: url(chrome://firebug/skin/rulerH.png) repeat-x;
+    border-top: 1px solid #BBBBBB;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px solid #000000;
+}
+
+.firebugRulerV {
+    top: 0;
+    left: -15px;
+    width: 14px;
+    height: 100%;
+    background: url(chrome://firebug/skin/rulerV.png) repeat-y;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #000000;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.firebugLayoutBox {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.firebugLayoutBoxOffset {
+    z-index: 2147483647;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.firebugLayoutBoxMargin {
+    background-color: #EDFF64;
+}
+
+.firebugLayoutBoxBorder {
+    background-color: #666666;
+}
+
+.firebugLayoutBoxPadding {
+    background-color: SlateBlue;
+}
+
+.firebugLayoutBoxContent {
+    background-color: SkyBlue;
+}
+
+/*.firebugHighlightGroup .firebugLayoutBox {
+    background-color: transparent;
+}
+
+.firebugHighlightBox {
+    background-color: Blue !important;
+}*/
+
+.firebugLayoutLine {
+    z-index: 2147483647;
+    background-color: #000000;
+    opacity: 0.4;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.firebugLayoutLineLeft,
+.firebugLayoutLineRight {
+    position: fixed;
+    width: 1px;
+    height: 100%;
+}
+
+.firebugLayoutLineTop,
+.firebugLayoutLineBottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px;
+    border-top: 1px solid #999999;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px;
+    border-left: 1px solid #999999;
+}
+</style></head><body id="tab1">
+        <div id="headBar">
+            <div id="logoText">
+                ADMIN PANEL<br>
+                <span style="font-size: small; font-weight: normal;">Willkommen im Administrationspanel für Parfüm-Fulia</span>
+            </div>
+            <div style="-moz-border-radius-topleft: 4px; -moz-border-radius-topright: 4px; -moz-border-radius-bottomleft: 4px; -moz-border-radius-bottomright: 4px;" id="loginInfo">
+                                    <div id="loggedInBox">Eingeloggt als <a style="font-style: italic;" href="#">Peter</a> <a href="http://127.0.0.1/cwow/acp.php?contentId=index&amp;logout"><img src="acp.php-Dateien/logout.png" alt="logout"></a><br>
+                        <span id="clock">23:54:10</span>
+                    </div>
+                            </div>
+            <div id="main">
+                <div id="bar">
+                                        <input class="text" onkeydown="$.tree.focused().search($(this).val())" name="navigation_search" id="navigation_search" value="Suchbegriff eingeben" style="position: absolute; margin-top: 15px; z-index: 2; color: rgb(170, 170, 170);" type="text">
+                    <!-- tab_navigation start -->
+<ul id="tabnav" style="margin-left: 240px; margin-top: 6px;">
+    <li class="selected "><a href="http://127.0.0.1/cwow/acp.php?contentId=index">Sprachvariablen</a></li>
+    <li><a class="inactive" href="http://127.0.0.1/cwow/acp.php?contentId=index">Systemlog</a></li>
+    <li><a class="inactive" href="http://127.0.0.1/cwow/acp.php?contentId=index">Templates</a></li>
+</ul>
+<!-- tab_navigation - end -->
+                                    </div>
+                                    <div id="middle">
+                        <div id="navigation">
+                            <div style="direction: ltr;" class="tree tree-default" id="tree"><ul class="ltr"><li class="open" href=""><a href="" style="" class=""><ins style="background-image: url(/cwow/Content/acp/img/icons/management.png);">&nbsp;</ins>Verwaltung</a><ul style=""><li class="last leaf" href="acp.php?contentId=systemLog"><a href="" style="" class="clicked"><ins style="background-image: url(/cwow/Content/acp/img/icons/log.png);">&nbsp;</ins>Systemlog</a></li></ul></li><li class="last open" href=""><a href="" style="" class=""><ins style="background-image: url(/cwow/Content/acp/img/icons/content.png);">&nbsp;</ins>Inhalte</a><ul style=""><li class="last leaf" href="acp.php?contentId=languageManager"><a href="" style="" class=""><ins style="background-image: url(/cwow/Content/acp/img/icons/language.png);">&nbsp;</ins>Sprachvariablen</a></li></ul></li></ul></div>
+                        </div>
+                        <div id="content">
+                                <iframe id="mainContent" name="mainContent" src="acp.php-Dateien/acp.htm" onload="resizeMe(this);" style="border: medium none ; width: 800px; height: 150px;">
+&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- index - end --&gt;
+&lt;br /&gt;
+&lt;b&gt;Fatal error&lt;/b&gt;: Uncaught exception 'Sys_User_Exception'
+with message 'Email already in use' in
+C:\xampp\htdocs\cwow\Sys\User\Registration.php:8
+Stack trace:
+#0 C:\xampp\htdocs\cwow\Content\acp\index.php(55):
+Sys_User_Registration::register(Array)
+#1 C:\xampp\htdocs\cwow\Sys\Content.php(41):
+require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\cwow\Sys\Content.php(75):
+Sys_Content-&amp;gt;printContent()
+#3 C:\xampp\htdocs\cwow\acp.php(37): Sys_Content-&amp;gt;load('index',
+'acp')
+#4 {main} thrown in
+&lt;b&gt;C:\xampp\htdocs\cwow\Sys\User\Registration.php&lt;/b&gt; on
+line &lt;b&gt;8&lt;/b&gt;&lt;br /&gt;
+</iframe></div></div></div></div><ul style="display: none;" id="jstree-contextmenu" class="tree-context"></ul><div style="display: none;" id="jstree-marker"></div></body><body id="firebugBody"></body></html>

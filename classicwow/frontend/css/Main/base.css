@@ -1,0 +1,58 @@
+/*
+Style für Links
+*/
+a:link,a:active,a:visited
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: 'Trebuchet MS',Arial,sans-serif;
+	font-size: 10px;
+	color: white; 
+}
+
+a:hover
+{
+		
+	text-shadow: 0.5px 0.4px #CCCCCC;	
+}
+
+/*
+Hintergrund, Haupt
+*/
+
+body
+{
+    /**background-color: Black;**/
+    background-image: url("../../img/PixelatedBgNorm6.png");
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Trebuchet MS',Arial,sans-serif;
+    font-size: 10px;
+    color: White;
+    overflow: hidden;
+}
+
+/*
+Auflistungsicon = >
+*/
+
+ul 
+{
+        text-align: left;
+	list-style-image: url("../../img/icons/arrow_state_grey_right.png");
+}
+
+#HeadGFXLoad 
+{
+	padding-top: 13px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+

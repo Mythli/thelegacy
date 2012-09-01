@@ -1,0 +1,92 @@
+/* 
+    Document   : messages
+    Created on : 08.12.2009, 18:17:41
+    Author     : Tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.message {
+
+    width: 350px;
+    min-height: 25px;
+    
+    background-color: #332E2E;
+    /*background-image: url("../../img/bg.png");*/
+    height: auto;
+    border: solid 1px #262626;
+
+    margin-top: 50px;
+
+    padding-top: 10px;
+    
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    /*Transparenz*/
+    opacity : 0.8;
+    filter: alpha(opacity = 80);
+}
+
+.loadMessage {
+    background-image: url("../../img/ajaxLoad.gif");
+    background-position: 28px 24px;
+    background-repeat: no-repeat;
+
+    color: white;
+
+}
+
+.errorMessage {
+    background-image: url("../../img/error.png");
+    background-position: 28px 22px;
+    background-repeat: no-repeat;
+
+    color: red;
+}
+
+.warningMessage {
+    background-image: url("../../img/warning.png");
+    background-position: 28px 22px;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+.successMessage {
+    background-image: url("../../img/success.png");
+    background-position: 28px 22px;
+    background-repeat: no-repeat;
+
+    color: Green;
+}
+
+.MessageHead {
+
+    /*Overide defaults*/
+    text-align: left;
+    padding-left: 50px;
+
+    font-weight: bold;
+    font-size: 110%;
+
+    /*
+    Das müsste man noch verfeinern sonst siehts shit aus
+    
+    border-bottom: solid 1px #4F4F4F;*/
+}
+
+.MessageText {
+    padding-left: 20px;
+    text-align: justify;
+    color: white;
+
+    padding-right: 10px;
+}
+

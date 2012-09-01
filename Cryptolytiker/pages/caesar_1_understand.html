@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+
+  <title>Dreispaltiges Layout</title>
+  <link rel="StyleSheet" href="style.css" type="text/css" media="screen">
+</head>
+
+
+<body>
+
+
+
+
+  
+<div id="Info">
+    <strong>C&auml;sar - Geheimtextalphabet - Verstehen</strong>
+<p>Ordnet man den Buchstaben des Alphabets Zahlen zu, wie
+beispielsweise in der folgenden Tabelle, so l&auml;sst sich mithilfe eines
+&bdquo;Schl&uuml;sselbuchstabens&ldquo; angeben, um wie viele Zeichen das
+Standardalphabet verschoben werden muss, um das <a href="http://de.wikipedia.org/wiki/Alphabet_%28Kryptographie%29" title="Alphabet (Kryptographie)">Geheimalphabet</a> zu erhalten.</p>
+
+<dl>
+  <dd>
+    <table>
+
+      <tbody>
+        <tr>
+aa
+          <td>
+          <pre> A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z<br>01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26<br></pre>
+          </td>
+
+        </tr>
+
+      </tbody>
+    </table>
+
+  </dd>
+</dl>
+
+<p>Beispielsweise entspricht der Schl&uuml;ssel C einer zyklischen
+Verschiebung um drei Zeichen. Folglich wird beispielsweise der
+Buchstabe &bdquo;r&ldquo; als &bdquo;U&ldquo; verschl&uuml;sselt. Zur deutlichen Unterscheidung ist
+es &uuml;blich, Klarbuchstaben klein zu schreiben und Geheimbuchstaben gro&szlig;.
+Somit ergibt sich folgende Zuordnung:</p>
+
+<pre>Klar:    a b c d e f g h i j k l m n o p q r s t u v w x y z<br>Geheim:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C<br></pre>
+
+<p>Da man sich das Geheimalphabet auch durch Rotation (zyklische
+Verschiebung) des Klaralphabets erzeugt denken kann, wird es auch als
+&bdquo;rotiertes Alphabet&ldquo; bezeichnet. In diesem Spezialfall bei Schl&uuml;ssel
+&bdquo;C&ldquo; w&auml;re es als ROT3 zu bezeichnen.</p>
+
+<p>Aus dem <a href="http://de.wikipedia.org/wiki/Klartext_%28Kryptographie%29" title="Klartext (Kryptographie)">Klartext</a> &bdquo;caesar&ldquo; wird bei Verschl&uuml;sselung mit dem Schl&uuml;ssel C der Geheimtext &bdquo;FDHVDU&ldquo;.</p>
+</div>
+
+
+  
+
+</body>
+</html>

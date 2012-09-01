@@ -1,0 +1,34 @@
+19-01-2010_16:22:40 2 sql queries executed
+19-01-2010_16:22:40 site request from ip 127.0.0.1
+19-01-2010_16:22:40 sql connect successfull servername: main
+19-01-2010_16:22:40 sql query executed: SELECT symbol, largeSymbol, name FROM iplist WHERE IP_from <= '2130706433' AND IP_to >= '2130706433' LIMIT 1;
+19-01-2010_16:22:40 sql query executed: SELECT * FROM content where contentId='system_log' and contentGroup='acp' Limit 0,1;
+19-01-2010_16:22:40 2 sql queries executed
+19-01-2010_16:22:40 site request from ip 127.0.0.1
+19-01-2010_16:22:40 sql connect successfull servername: main
+19-01-2010_16:22:40 sql query executed: SELECT symbol, largeSymbol, name FROM iplist WHERE IP_from <= '2130706433' AND IP_to >= '2130706433' LIMIT 1;
+19-01-2010_16:22:40 sql query executed: SELECT * FROM content where contentId='acp_navigation' and contentGroup='acp' Limit 0,1;
+19-01-2010_16:22:40 sql query executed: select * from acp_navigation where parent = '0' order by navOrder;
+19-01-2010_16:22:40 sql query executed: select * from acp_navigation where parent = '1' order by navOrder;
+19-01-2010_16:22:40 sql query executed: select * from acp_navigation where parent = '2' order by navOrder;
+19-01-2010_16:22:40 sql query executed: select * from acp_navigation where parent = '4' order by navOrder;
+19-01-2010_16:22:40 sql query executed: select * from acp_navigation where parent = '5' order by navOrder;
+19-01-2010_16:22:40 7 sql queries executed
+19-01-2010_16:22:43 site request from ip 127.0.0.1
+19-01-2010_16:22:43 sql connect successfull servername: main
+19-01-2010_16:22:43 sql query executed: SELECT symbol, largeSymbol, name FROM iplist WHERE IP_from <= '2130706433' AND IP_to >= '2130706433' LIMIT 1;
+19-01-2010_16:22:43 sql query executed: SELECT * FROM content where contentId='systemLog' and contentGroup='acp' Limit 0,1;
+19-01-2010_16:22:43 901 throwed : can´t find content-entry systemLog
+19-01-2010_16:22:43 2 sql queries executed
+19-01-2010_16:22:50 site request from ip 127.0.0.1
+19-01-2010_16:22:50 sql connect successfull servername: main
+19-01-2010_16:22:50 sql query executed: SELECT symbol, largeSymbol, name FROM iplist WHERE IP_from <= '2130706433' AND IP_to >= '2130706433' LIMIT 1;
+19-01-2010_16:22:50 sql query executed: SELECT * FROM content where contentId='languageManager' and contentGroup='acp' Limit 0,1;
+19-01-2010_16:22:50 901 throwed : can´t find content-entry languageManager
+19-01-2010_16:22:50 2 sql queries executed
+19-01-2010_16:22:53 site request from ip 127.0.0.1
+19-01-2010_16:22:53 sql connect successfull servername: main
+19-01-2010_16:22:53 sql query executed: SELECT symbol, largeSymbol, name FROM iplist WHERE IP_from <= '2130706433' AND IP_to >= '2130706433' LIMIT 1;
+19-01-2010_16:22:53 sql query executed: SELECT * FROM content where contentId='systemLog' and contentGroup='acp' Limit 0,1;
+19-01-2010_16:22:53 901 throwed : can´t find content-entry systemLog
+19-01-2010_16:22:53 2 sql queries executed

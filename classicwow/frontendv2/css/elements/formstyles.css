@@ -1,0 +1,90 @@
+/* 
+    Document   : form
+    Created on : 03.12.2009, 23:03:15
+    Author     : Tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.InputCaption {
+    width: auto;
+    font: small-caption;
+    padding-bottom: 0px;
+
+}
+
+input {
+    color: white;
+
+    min-height: 10px;
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    /*background-image: url("http://127.0.0.1/classicwow/img/captionHolder.png");*/
+    background-color: #3D3939;
+    
+    border : solid 1px #4F4F4F;
+
+}
+
+input.text {
+    width: 400px;
+}
+
+input.text:hover {
+    border: solid 1px #5D5B5B;
+}
+
+.passwordfields {
+    
+}
+
+.pstrength-minchar {
+    font-size : 10px;
+}
+
+#Password_bar {
+    margin-top: 4px;
+}
+
+select {
+    width: 400px;
+    background-color: #3D3939;
+
+    border : solid 1px #4F4F4F;
+
+    color: white;
+    
+    min-height: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+select.text:hover {
+    border: solid 1px #5D5B5B;
+}
+
+.buttons {
+    margin-top: 5px;
+    float: right;
+}
+
+.valIcon {
+    position: absolute;
+    top: inherit;
+    right: inherit;
+    display: none;
+    margin-top: -18px;
+    margin-left: 380px;
+
+    z-index: 100;
+
+}
+

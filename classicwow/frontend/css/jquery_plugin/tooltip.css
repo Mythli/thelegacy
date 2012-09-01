@@ -1,0 +1,25 @@
+
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	background: transparent;
+}
+
+.tooltipStyle {
+	border: 1px solid #a9a9a9;
+	background-image: url("../img/overlay/bg.png");
+	padding: 5px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: 'Trebuchet MS',Arial,sans-serif;
+	font-size: 8px;
+	color: white; 
+}
+
+#tooltip h3, #tooltip div { margin: 0; }
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+/* 
+    Document   : iteminfo.php
+    Created on : 03.12.2009, 23:10:30
+    Author     : Tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.iteminfo {
+		font-family: arial,tahoma,verdana,helvetica;
+		color: #FFFFFF;
+		font-size: 12px;
+}
+
+.itemContainer {
+	font-family: arial;
+	font-size: 10pt;
+	background-image: url("../../img/overlay/bg.png");
+	border: 1px solid #a9a9a9;
+	padding: 3px; width: auto;
+	min-width: 100px;
+	max-width: 320px;
+}
+
+.setitem
+{
+	padding-left: 10px;
+	color: #9D9D9D;
+
+}
+
+.setspell
+{
+	color: #9D9D9D;
+	max-width: 300px;
+
+}
+
+.spell
+{
+	color: #1EFF00
+
+}

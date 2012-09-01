@@ -1,0 +1,117 @@
+/* 
+    Document   : overlay
+    Created on : 03.12.2009, 23:11:05
+    Author     : Tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#overlay
+{
+    background-image: url("../../img/bg.png");
+    position: absolute;
+    top: 121px;
+    right: 180px;
+    height: 450px;
+    width: 65%;
+    z-index: 3;
+    border-bottom:1px solid #4F4F4F;
+    border-top:1px solid #000000;
+}
+
+
+#overlay #overlayInline
+{
+	border-top:1px solid #4F4F4F;
+	border-bottom:1px solid #000000;
+	height:100%;
+	background: transparent;
+
+}
+
+#overlayRight
+{
+    border-top:1px solid #000000;
+    z-index: 3;
+    background-image: url("../../img/bg.png");
+    position: absolute;
+    top: 121px;
+    right: 0px;
+    width: 180px;
+    height: 130px;
+}
+
+#overlayRight #overlayRightInline
+{
+	border-top:1px solid #4F4F4F;
+	height:100%;
+	background: transparent;
+}
+
+#overlay #captionHolder
+{
+    background-image: url("../../img/captionHolder.png");
+    background-repeat: repeat-y;
+    height: 30px;
+}
+
+#overlay #captionHolder #captionText
+{
+    padding-top: 1px;
+    padding-left: 4px;
+
+    font-size: 200%;
+    font-weight:bolder;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    /*text-shadow: grey 1px 1px 1px;*/
+}
+
+#overlay #overlayContent
+{
+    margin-top: 10px;
+    background-color: Transparent;
+    color:White;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Trebuchet MS',Arial,sans-serif;
+    font-size: 11px;
+    height: 440px;
+    overflow : auto;
+    margin: 4px;
+    padding-right: 10px;
+
+    scrollbar-3d-light-color:#322d2d;
+    scrollbar-arrow-color:white;
+    scrollbar-face-color:#322d2d;
+    scrollbar-highlight-color:black;
+    scrollbar-track-color:#322d2d;
+
+}
+#overlay #overlayFooter
+{
+    position: absolute;
+
+    bottom: 4px;
+    right: 0px;
+
+    margin-top: 4px;
+
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 4px;
+
+    width: 100%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Trebuchet MS' ,Arial,sans-serif;
+    font-size: 10px;
+
+    cursor: pointer;
+    color: #4F4F4F;
+}

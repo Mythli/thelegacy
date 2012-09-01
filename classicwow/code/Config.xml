@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+    <Sys>
+        <Log logLevel="1" logFile="Log/sys.log" maxLogSize="3KB" archiveFile="Log/sys.log.zip" />
+        <Emails>
+            <register>register@classicwow.org</register>
+            <jobs>jobs@classicwow.org</jobs>
+            <support>support@classicwow.org</support>
+        </Emails>
+        <Content>
+            <Tpl enableCache="0" templateExtension="html" destination="content/site/" inTpl="1" />
+        </Content>
+        <File>
+            <Upload destination="Upload" size="1GB" restrictedExtensions="php,php4,cgi,cfm,aspx,asp" />
+            <Image>
+                <Upload destination="Upload/img/full" >
+                    <Sizes>
+                        <Size scale="10" destination="Upload/img/test2" />
+                    </Sizes>
+                </Upload>
+            </Image>
+        </File>
+        <Database>
+            <Servers>
+                <main dbHost="127.0.0.1" dbPort="3306" dbUser="Myth" dbPass="025139" dbName="frontend" />
+            </Servers>
+        </Database>
+        <Translation defaultLanguage="gb" >
+            <DefaultCountry symbol="gb" largeSymbol="gbr" name="great britain"  />
+            <GTranslate apiUrl="http://ajax.googleapis.com/ajax/services/language/translate" apiVersion="1.0" apiKey="ABQIAAAABuiF15UR-56UzIsPxmZcTBRsTj1c2VYhZZdpBRXwIasHlm95DxTljAP15CjOBiOutU1VS6PvWbhcOQ" requestType="curl" />
+          <AvaibleLanguages>
+            <af>afrikaans</af>
+            <sq>albanian</sq>
+            <am>amharic</am>
+            <ar>arabic</ar>
+            <hy>armenian</hy>
+            <az>azerbaijani</az>
+            <eu>basque</eu>
+            <be>belarusian</be>
+            <bn>bengali</bn>
+            <bh>bihari</bh>
+            <bg>bulgarian</bg>
+            <my>burmese</my>
+            <ca>catalan</ca>
+            <chr>cherokee</chr>
+            <zh>chinese</zh>
+            <zh-cn>chinese_simplified</zh-cn>
+            <zh-tw>chinese_traditional</zh-tw>
+            <hr>croatian</hr>
+            <cs>czech</cs>
+            <da>danish</da>
+            <dv>dhivehi</dv>
+            <nl>dutch</nl>
+            <en>english</en>
+            <eo>esperanto</eo>
+            <et>estonian</et>
+            <tl>tagalog</tl>
+            <fi>finnish</fi>
+            <fr>french</fr>
+            <gl>galician</gl>
+            <ka>georgian</ka>
+            <de>german</de>
+            <el>greek</el>
+            <gn>guarani</gn>
+            <gu>gujarati</gu>
+            <iw>hebrew</iw>
+            <hi>hindi</hi>
+            <hu>hungarian</hu>
+            <is>icelandic</is>
+            <id>indonesian</id>
+            <iu>inuktitut</iu>
+            <it>italian</it>
+            <ja>japanese</ja>
+            <kn>kannada</kn>
+            <kk>kazakh</kk>
+            <km>khmer</km>
+            <ko>korean</ko>
+            <ku>kurdish</ku>
+            <ky>kyrgyz</ky>
+            <lo>laothian</lo>
+            <lv>latvian</lv>
+            <lt>lithuanian</lt>
+            <mk>macedonian</mk>
+            <ms>malay</ms>
+            <ml>malayalam</ml>
+            <mt>maltese</mt>
+            <mr>marathi</mr>
+            <mn>mongolian</mn>
+            <or>oriya</or>
+            <ps>pashto</ps>
+            <fa>persian</fa>
+            <pl>polish</pl>
+            <pt-pt>portuguese</pt-pt>
+            <pa>punjabi</pa>
+            <ro>romanian</ro>
+            <ru>russian</ru>
+            <sa>sanskrit</sa>
+            <sr>serbian</sr>
+            <sd>sindhi</sd>
+            <si>sinhalese</si>
+            <sk>slovak</sk>
+            <sl>slovenian</sl>
+            <es>spanish</es>
+            <sw>swahili</sw>
+            <sv>swedish</sv>
+            <tg>tajik</tg>
+            <ta>tamil</ta>
+            <tl>tagalog</tl>
+            <te>telugu</te>
+            <th>thai</th>
+            <bo>tibetan</bo>
+            <tr>turkish</tr>
+            <uk>ukrainian</uk>
+            <ur>urdu</ur>
+            <uz>uzbek</uz>
+            <ug>uighur</ug>
+            <vi>vietnamese</vi>
+        </AvaibleLanguages>
+        </Translation>
+      
+    </Sys>
+</Config>
+
+
+
+

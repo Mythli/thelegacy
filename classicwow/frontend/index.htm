@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+
+        <link rel="shortcut icon" href="/favicon.ico"/>
+
+        <meta http-equiv="Content-Type" CONTENT="text/html; charset=iso-8859-1" />
+        <meta NAME="copyright" CONTENT="(c) Tobias Anhalt, Hendrik Fellerhoff, Anonymous Nico" />
+        <meta NAME="description" CONTENT="Classicwow" />
+        <meta NAME="Distribution" CONTENT="Global" />
+        <meta NAME="keywords" CONTENT="Privatserver, Classic, WoW, World of Warcraft, Warcraft" />
+
+
+        <title>ClassicWoW</title>
+        <script type="text/javascript">
+            var gLang = new Array();
+            var gTopBgs = new Array();
+            var gGlobalJs = new Array ();
+            
+            gGlobalJs['supportEmail']='support@classicwow.org';
+            gGlobalJs["gUserNameVal"]="((\w|[-_]){4,15})$";
+
+
+            gTopBgs['0']='Darkshore.jpg'; gTopBgs['1']='BlackrockMountain.jpg'; gTopBgs['2']='Brill.jpg'; gTopBgs['3']='GoldenReign.jpg'; gTopBgs['4']='HelmsBedDale.jpg'; gTopBgs['5']='Requiem.jpg'; gTopBgs['6']='SenJin.jpg'; gTopBgs['7']='ShatteredMetro.jpg';
+        </script>
+        <!--JQuery Framework-->
+        <script type="text/javascript" src="js/jquery-1.3.2-vsdoc2.js" ></script>
+
+        <!--JQuery Plugins-->
+        <script type="text/javascript" src="js/jquery_plugins/corner.js" ></script>
+        <script type="text/javascript" src="js/jquery_plugins/tooltip.js" ></script>
+        <script type="text/javascript"src="js/jquery_plugins/watermarkinput.js" ></script>
+        <script type="text/javascript"src="js/jquery_plugins/pwstrength.js" ></script>
+
+        <!--JSFiles-->
+        <script type="text/javascript" src="js/trimpath_template.js" ></script>
+
+        <script type="text/javascript" src="js/main.js" ></script>
+
+        <!--Style-Basiselemente-->
+        <link rel="stylesheet" type="text/css" href="css/Main/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/Main/overlay.css" />
+        <link rel="stylesheet" type="text/css" href="css/Main/view.css" />
+        
+        <!--Style-Elemente-->
+        <link rel="stylesheet" type="text/css" href="css/elements/containers.css" />
+        <link rel="stylesheet" type="text/css" href="css/elements/formstyles.css" />
+        <link rel="stylesheet" type="text/css" href="css/elements/screenshot_slider.css" />
+        <link rel="stylesheet" type="text/css" href="css/elements/messages.css" />
+
+
+        <!--Jquery-Pluginstyles-->
+        <link rel="stylesheet" type="text/css" href="css/jquery_plugin/tooltip.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery_plugin/pwstrength.css" />
+
+
+    </head>
+    <body>
+        <div id="topBgHolder">
+
+            <div id="panHolder">
+                <div id="panoramaSlideNav">
+                    <div id="panoramaSlideNavInline" class="scroll-pane">
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <img id="headIMG" src="" class="load" style="margin-top: 0px; margin-left: 0px; display: none;" />
+        </div>
+        <!-- OVERLAY -->
+
+        <div id="overlay" style="display: none;">
+            <div id="overlayInline">
+                <div id="captionHolder">
+                    <div id="captionText">
+
+                    </div>
+                </div>
+                <div id="overlayContent">
+                </div>
+                <span id="overlayFooter" onclick="CloseOverlay()">[ESC] Schliessen</span>
+            </div>
+        </div>
+        <div id="overlayRight" style="display: none;">
+            <div id="overlayRightInline"></div>
+        </div>
+
+        <!-- MAIN -->
+
+
+        <div id ="bannerHolder">
+
+            <div id="renderHolder">
+
+
+                <div id="render" href="overlayframes/content.php-contentId=about.htm" overlay="show" captionimg="img/overlay/caption/about.png">
+                    <img href="overlayframes/content.php-contentId=about.htm" overlay="show" captionimg="img/overlay/caption/about.png" id="renderimg_animated" style="border: none; display:block; cursor:pointer;" src="img/orc_animated.gif" alt="" />
+                    <table style="position: absolute; z-index:20; margin-top: -430px;">
+                        <tr>
+                            <td style="width: 60px; height: 110px;"/>
+                            <td itemid="16868" style="height: 110px; width: 170px;" class="wowtooltip"/>
+                        </tr>
+                        <tr>
+                            <td style="width: 60px; height: 60px;"/>
+                            <td itemid="16868" style="height: 60px; width: 170px;" class="wowtooltip">
+                                <div itemid="16866" class="wowtooltip" style="float: right; height: 100%; width: 40px;"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height: 15px;"></td>
+                            <td style="height: 15px; width: 170px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 60px; height: 60px;"></td>
+                            <td style="height: 90px; width: 170px;">
+                                <div itemid="16341" class="wowtooltip" style="float: left; height: 90px; width: 40px; margin-left: -20px;"/>
+                                <div itemid="16863" class="wowtooltip" style="float: left; margin-left: 15px; height: 100%; width: 80px;"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 60px; height: 140px;">
+                                <div itemid="18831" class="wowtooltip" style="margin-top: -70px; width: 60px; height: 50px;"/>
+                                <div itemid="16341" class="wowtooltip" style="width: 60px; height: 25px;"/>
+                            </td>
+                            <td style="height: 140px; width: 170px;">
+                                <div itemid="16862" class="wowtooltip" style="float: left; margin-left: 25px; height: 100%; width: 120px;"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div id="caption">
+                    <img href="overlayframes/content.php-contentId=about.htmd" overlay="show" captionimg="img/overlay/caption/about.png" style="border: none; cursor:pointer;" src="img/caption.png" alt="" />
+                    <div class="wowtooltip" itemid="18831" style="position: absolute; width: 190px; height: 100%; margin-left: -40px; margin-top: -100px; height: 180px;" ></div>
+                </div>
+                <div id="captionUnderLine"></div>
+
+
+            </div>
+
+
+
+            <div id="banner" style="text-align: right;">
+                <div id="bannerInline">
+                </div>
+
+            </div>
+            <div id="menuLine">
+                <span><a href="javascript:LoadOvlerlay('content/register.htm')">Registrieren</a></span>
+                <span><a href="overlayframes/content.php-contentId=about.htm" overlay="show" captionimg="img/overlay/caption/about.png">Info</a></span>
+                <span><a href="overlayframes/content.php-contentId=news.htm" itemid="16863" class="wowtooltip" overlay="show" captionimg="img/overlay/caption/news.png">News</a></span>
+                <span><a class="tt" title="" href="overlayframes/content.php-contentId=application.htm" overlay="show" captionimg="img/overlay/caption/application.png">Bewerben</a></span>
+            </div>
+        </div>
+
+
+    </body>
+</html>

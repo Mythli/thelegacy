@@ -1,0 +1,47 @@
+/* 
+    Document   : containers
+    Created on : 03.12.2009, 23:02:14
+    Author     : Tobias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.container
+{
+	border:1px solid #000000;
+	border-top: none;
+	margin-bottom: 5px;
+}
+
+.containerInline
+{
+	border:1px solid #4F4F4F;
+	border-top: none;
+	background: transparent;
+	/*background-image: url("../../img/container_Head_Transparent.png");*/
+        background-color: #302C2C;
+	padding: 5px;
+
+}
+
+.containerHead
+{
+	border:1px solid #000000;
+	border-bottom : none;
+	cursor: pointer;
+
+}
+
+.containerHeadInline
+{
+	padding: 3px;
+	border:1px solid #4F4F4F;
+	background-image: url("../../img/bg.png");
+        min-height: 15px
+
+}

@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+
+               //Watermark
+               $("#LoginName").Watermark("Benutzername");
+               $("#EMail").Watermark("E-Mail");
+
+               //Überschrift setzen
+               $("#captionText").html("Anmelden");
+            });
+
+            $("#btn_send").click(function () {
+                $("#RegisterUser").hide(500);
+                $("#AccountCreated").show(500);
+
+            });
+
+
+
+            $('#Password').pstrength(3);
+            $("#LoginName").change(function () {
+                test="12345";
+                if (test.match("[0-9]")==-1) {
+                    SetStateImage("success", "#LoginName_val");
+                } else {
+                    SetStateImage("error", "#LoginName_val");
+                }
+            });
+
+
+
+        </script>
+
+    </head>
+    <body>
+        <div class="RegisterUserForm">
+
+
+            <strong>Erstelle dir hier kostenlos deinen Spiel-Account und erhalte Zugang zur Welt von Metin2:</strong>
+
+            <div class="containerHead" style="width: 700px; margin-top: 10px;">
+                <div class="containerHeadInline">
+                    Accountdaten eingeben
+                </div>
+            </div>
+            
+            <div class="container" style="width: 700px;">
+                <img style="float: right; width: 276px; height: 342px; z-index: 30000; float: right;" alt="" src="img/register_render.png" />
+                <div class="containerInline">    
+                    <form name="RegisterUser" id="RegisterUser" method="POST">
+                        <table width="auto">
+                            <tbody>
+                                <tr>
+                                    <td class="InputCaption">Benutzername</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" class="text" name="LoginName" id="LoginName" value="" />
+                                        <div id="LoginName_val" class="valIcon">
+                                            <img src="" id="LoginName_val_ico" width="12px" />
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="InputCaption" >Passwort</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="password" class="text" name="Password" id="Password" value="" />
+                                        <div id="Password_val" class="valIcon">
+                                            <img src="" width="12px" />
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td class="InputCaption" >Passwort erneut eingeben</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="password" class="text" name="Password_eval" id="Password_eval" value="" />
+                                        <div id="Password_eval_val" class="valIcon">
+                                            <img src="" width="12px" />
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="InputCaption" >E-Mail</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" class="text" name="EMail" id="EMail" value="" />
+                                        <div id="EMail_val" class="valIcon">
+                                            <img src="" width="12px" />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="InputCaption" >Gewünschte Rates</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="rate_voting">
+                                            <option>1x (Blizzlike)</option>
+                                            <option>2x (Lowrate)</option>
+                                            <option>3x (Lowrate)</option>
+                                            <option>5x (Highrate)</option>
+                                            <option>10x (Highrate)</option>
+                                        </select>
+                                        <div id="LoginName_val" class="valIcon">
+                                            <img src="" width="12px" />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="get_newsletter" checked="TRUE" value="ON" /><span>ClassicWoW-Newsletter abbonieren</span>
+                                        <input type="checkbox" name="agb_checked" value="ON" /><span>Regeln gelesen und akzeptiert</span>
+                                   </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="buttons">
+                                            <input type="button" class="button" value="Anmelden" id="btn_send" name="btn_send" />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                    <div id="AccountCreated" class="message successMessage" style="display: none;">
+                        <p class="MessageHead">Account wurde erfolgreich erstellt</p>
+                        <p class="MessageText">Dein Account wurde erfolgreich erstellt. Eine Bestätigungs E-Mail wurde an die angegebene Mailadresse versendet. Dein Account wird mit klicken des Aktivierungslinks aktiviert.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

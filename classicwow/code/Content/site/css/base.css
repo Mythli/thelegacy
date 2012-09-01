@@ -1,0 +1,91 @@
+html, body {
+
+    width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+
+    background-image: url('../img/bg.png');
+    background-repeat: repeat-x;
+
+    background-color: #B4CBC1;
+}
+
+img {
+    border: none;
+}
+
+a {
+    border: none;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration : underline;
+}
+
+#center {
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 1024px;
+}
+
+#center #headBar {
+    height: 41px;
+    
+    background: transparent;
+}
+
+#menu {
+    margin-right: 5px;
+}
+
+#center #headBar #menu span {
+    color: #5A4B77;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+
+    font-family: monospace;
+}
+
+#center #headBar #showCartButton {
+    float: right;
+    margin-right: 17px;
+
+    height: 41px;
+    width: 123px;
+
+    margin-top: -18px;
+    
+    background-image: url('../img/cartTopButton.png');
+    cursor: pointer;
+}
+
+#center #banner {
+    margin-top: 30px;
+}
+
+#center #banner #logo img {
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#center #banner #ad img {
+    margin-left: 125px;
+}
+
+#center #decorationPoints {
+    margin-right: 40px;
+    margin-top: 15px;
+    float: right;
+}
+
+#center #content {
+    margin-top: 50px;
+    height: auto;
+    background-color: #FEFEFE;
+
+    
+    font-family: sans-serif;
+}

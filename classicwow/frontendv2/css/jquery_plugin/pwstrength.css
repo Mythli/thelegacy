@@ -1,0 +1,9 @@
+
+.pwstrength_bar {
+    border: 1px solid #4F4F4F;
+    margin-top: -2px;
+    font-size: 1px;
+    height: 3px;
+    width: 7%;
+    background-color: red;
+}
